@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { HeroSearchComponent } from './hero-search/hero-search.component';
+import { HeroFormComponent } from './hero-form/hero-form.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HeroSearchComponent } from './hero-search/hero-search.component';
     HeroesComponent,
     HeroDetailComponent,
     MessagesComponent,
-    HeroSearchComponent  
+    HeroSearchComponent,
+    HeroFormComponent  
   ],
   imports: [
     BrowserModule,
